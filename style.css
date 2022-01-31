@@ -641,6 +641,7 @@ nav a,ul{
         width: 90px;
         height: 3px;
         border-top: 4px solid #19F5CE;
+        margin-left: 20px;
     }
   
     .about-item{
