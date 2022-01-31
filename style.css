@@ -740,6 +740,7 @@ nav a,ul{
       width: 100px;
       height: 3px;
       border-top: 4px solid #19F5CE;
+      margin-left: 20px;
   }
   
   .desc-entry{
