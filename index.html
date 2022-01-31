@@ -1,92 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CodeCats</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/x-icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/x-icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/x-icon/favicon-16x16.png">
-    <link rel="manifest" href="images/x-icon/site.webmanifest">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-          </a>
-        </div>
-        <div class="menu">
-          <a
-            href="https://discord.gg/A9CnsVzzkZ"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/discord.webp" alt="Discord" />
-          </a>
-          <a
-            href="https://twitter.com/CodeCats10k"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/twitter.webp" alt="Twitter" />
-          </a>
-          <a
-            href="https://opensea.io/collection/codecats"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/opensea.webp" alt="Opensea" />
-          </a>
-          <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Wallet</span>
-          </button>
-        </div>
-      </div>
-    </header>
-
-    <section class="container">
-      <div class="countdown">
-        <ul
-          id="countdown"
-          class="count-down"
-          data-date="Feb 17, 2022 4:00:00 PM UTC"
-        >
-          <li class="clock-item">
-            <span class="count-number days">20</span>
-            <p class="count-text">Days</p>
-          </li>
-
-          <li class="clock-item">
-            <span class="count-number hours">20</span>
-            <p class="count-text">Hour</p>
-          </li>
-
-          <li class="clock-item">
-            <span class="count-number minutes">20</span>
-            <p class="count-text">Min</p>
-          </li>
-
-          <li class="clock-item">
-            <span class="count-number seconds">20</span>
-            <p class="count-text">Sec</p>
-          </li>
-        </ul>
-        <h1>NFT Drop Coming Soon!!</h1>
-               
-        <p>A new batch of cute cats will be available very soon!</p>
-        <a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer" class="hero-btn btn"
-          ><span>Join the Catmmunity</span>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/b1ce1191f3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="hero">
+    <head>
+    <nav>
+        <a href="#">
+            <img src="./logo.png" alt="The Khabi Collection" class="logo">
         </a>
-      </div>
+
+        <ul class="navbar">
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </head>
+
+    <section>
+        <p class="main">
+            <h3 align="center">WELCOME TO</h3>
+            <h1 align="center">THE KHABI COLLECTION</h1>
+        </p>
+        <p class="sub" align="center">
+            10000+ Khabs coming with great features, We are building one of the biggest NFT Community in <br> which everyone is making profit of being a member.
+        </p>
+
+        <!--countdown-->
+        <div class="countdown">
+            <ul
+              id="countdown"
+              class="count-down"
+              data-date="March 01, 2022 4:00:00 PM UTC"
+            >
+                <li class="clock-item">
+                    <span class="count-number days">20 <p>:</p></span>
+                    <p class="count-text">Days</p>
+                </li>
+        
+                <li class="clock-item">
+                    <span class="count-number hours">20 <p>:</p></span>
+                    <p class="count-text">Hour</p>
+                </li>
+        
+                <li class="clock-item">
+                    <span class="count-number minutes">20 <p>:</p></span>
+                    <p class="count-text">Min</p>
+                </li>
+        
+                <li class="clock-item">
+                    <span class="count-number seconds">20</span>
+                    <p class="count-text">Sec</p>
+                </li>
+            </ul>
+        </div>
+        <!--Countdown end-->
+
+        <p class="announce" align="center">
+            NFT DROP SOON!!!
+        </p>
+
+        <!--Call to Action-->
+        <div align="center" class="call">
+            <button class="cta" align="center">
+                <a href="#">
+                    Join community
+                </a>
+            </button>
+        </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
-    <script src="app.js"></script>
-  </body>
+    <!--Gallery-->
+    <section class="gallery">
+        <div class="frame" align="center">
+            <img class="item" src="./gallery.png" alt="Khab5">
+        </div>
+    </section>
+
+</section>
+
+      <!--About-->
+      <section class="about">
+        <div class="title">
+            <p>
+                About the Khabi Collection
+            </p>
+            <div></div>
+        </div>
+
+        <div class="about-item">
+            <span>
+                <img src="./about.png" alt="About-image">
+            </span>
+
+            <span class="separator"></span>
+
+            <span>
+                <p>
+                    The Khabi Collection is serie of collections of 10000+ avatars called: Khabs, coming with great features, The goal of this project is to build on of the biggest community in the NFT Spaces, with no language, sex, color or age barrier. <br> <br>
+
+The project is built to go on an ascending route. We expect making each collection better than the previous. We believe we can only achieve such succes if we have the support of our community. We expect from you to always gives of feedback, thoughts and ideas on how to improve this project and in return we’ll make sure that this journey remains in history. <br> <br>
+
+The Khabi Collection is more than just NFTs. We are giving a percentage of all profits made out the project to Non Governmental Organisations in Benin Republic,West Africa.
+                </p>
+            </span>
+        </div>
+    </section>
+
+    <!--Social Networks-->
+    <section class="social">
+        <p align="center">
+            Social Networks
+        </p>
+
+        <div class="social-items" align="center">
+            <span>
+                <i class="fab fa-twitter"></i>
+                <p>
+                    <a href="#">@DKollecTion001</a>
+                </p>
+            </span>
+
+            <span>
+                <i class="fab fa-instagram"></i>
+                <p>
+                   <a href="#">@dkhabicollection.nft</a>
+                </p>
+            </span>
+
+            <span>
+                <i class="fab fa-discord"></i>
+                <p>
+                    <a href="#">@The_Khabians</a>
+                </p>
+            </span>
+        </div>
+    </section>
+
+    <!--Description-->
+    <section class="desc">
+        <div class="desc-title">
+            <p>
+                <b>The Khabi Collection</b> - Khabs Description
+            </p>
+            <div></div>
+        </div>
+
+        <p class="desc-entry">
+            The Khabs come in simple outfits, mostly middle age(18-40) outfit.
+        </p>
+
+        <p class="head">
+            <b>Head Accessories: </b>The Khabs come with two(02) head accessories: Cap and Headband. Each of the accessories comes in a variety of colors and design.
+            In absence of the cap or headband, the khabs hair styles are revealed.
+            The hair styles included are: <br> <br>
+            &Tab;- the bald hair<br>
+            &Tab;- the Buzzcut + Shape Up<br>
+            &Tab;- the Afro + Long Messy Hair<br>
+            &Tab;- the Afro + Hard Part 
+        </p>
+
+        <p class="eye">
+            <b>Eye Accessories: </b> The Khabs come with eye glasses of different shapes and color. 
+            In absence of eye glasses, the khabs eyes are revealed.
+            The shapes included are: <br> <br>
+            &Tab;- round glasses<br>
+            &Tab;- square/normal glasses           
+        </p>
+
+        <p class="mouth">
+            <b>Mouth Accessories: </b> The Khabs come with one mouth accessorie: a cigar.         
+        </p>
+
+        <p class="face">
+            <b>Facial Expressions: </b>The Khabs are made with different facial expressions expecially on the eye level.
+            The facial expressions included are: <br> <br>
+            &Tab;- the straight look<br>
+            &Tab;- the left side look<br>
+            &Tab;- the right side look<br>
+            &Tab;- the joining eyes look<br>
+            &Tab;- the surprised face<br>
+            &Tab;- the smiley face<br>
+            &Tab;- the smiley face with gold theeth<br>
+            &Tab;- the full beard face<br>
+            &Tab;- the circle beard face<br>
+            &Tab;- the right eye blink<br>
+            &Tab;- masked face
+        </p>
+
+        <p class="clothes">
+            <b>Clothes: </b>The Khabs are dressed in outdoor outfit.
+            The clothes included are: <br> <br>
+            &Tab;- sweats(plain color sweats, character design sweats)<br>
+            &Tab;- turtle neck sweaters<br>
+            &Tab;- shirt + bompers<br>
+            &Tab;- t-shirt
+        </p>
+        
+        <p class="jewelry">
+            <b>Jewelries: </b>The Khabs essentially wear earings and chain.
+            The jewelries included are: <br> <br>
+            &Tab;- diamond earings<br>
+            &Tab;- gold earings<br>
+            &Tab;- gold neckalce<br>
+            &Tab;- diamond necklace<br>
+            &Tab;- golden necklace with logo<br>
+            &Tab;- diamond necklace with logo
+        </p>
+
+        <img src="./tkmc.png" alt="Future Project" class="update">
+    </section>
+
+    <!--Countdown-->
+    <section class="timing" align="center">
+        <div class="countdowns">
+            <ul
+              id="countdowns"
+              class="count-downs"
+              data-date="March 01, 2022 4:00:00 PM UTC"
+            >
+                <li class="clock-items">
+                    <span class="count-numbers dayss">20 <p>:</p></span>
+                    <p class="count-texts">Days</p>
+                </li>
+        
+                <li class="clock-items">
+                    <span class="count-numbers hourss">20 <p>:</p></span>
+                    <p class="count-texts">Hour</p>
+                </li>
+        
+                <li class="clock-items">
+                    <span class="count-numbers minutess">20 <p>:</p></span>
+                    <p class="count-texts">Min</p>
+                </li>
+        
+                <li class="clock-items">
+                    <span class="count-numbers secondss">20</span>
+                    <p class="count-texts">Sec</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo" align="center">
+            <a href="#">
+                <img src="./logo.png" alt="The Khabi Collection" class="logo2">
+                <p>The Khabi Collection</p>
+            </a>
+        </div>
+    </footer>
+
+
+<script src="./app.js"></script>
+</body>
 </html>
