@@ -455,3 +455,472 @@ nav a,ul{
   text-decoration: none;
   padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  
+  *{
+      padding: 0;
+      margin: 0;
+  }
+  
+  body{
+      background-color: black;
+  }
+  
+  .logo{
+      width: 70px;
+      height: 60px;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  
+  nav a,ul{
+      display: inline-block;
+  }
+  
+  .navbar{
+      float: right;
+      margin-right: 10px;
+  }
+  
+  .navbar li{
+      display: inline-block;
+      padding: 50px 20px 0px 0px;
+  }
+  
+  .hero{
+      background-image: url("./images/bg.png");
+      background-position: top;
+      -webkit-filter: brightness(-50);
+  }
+  
+  .navbar i{
+      font-size:24px;
+      color: white;
+  }
+  
+  .navbar i:hover{
+      color: #19F5CE;
+      transition: all 1s ease;
+  }
+  
+  .main ,h3{
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      padding-top: 20px;
+  }
+  
+  .main ,h1{
+      color: #19F5CE;
+      font-family: 'Roboto', sans-serif; 
+      font-weight: 900;
+      font-size: 48px;
+      letter-spacing: 3px;
+  }
+  
+  .sub{
+      margin-top: 10px;
+      color: white;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      line-height: 21px;
+      font-size: 13px;
+  }
+  
+  .countdown {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-top: 15px;
+    }
+    
+    .countdown ul {
+      display: flex;
+      gap: 2rem
+    }
+    .countdown .clock-item {
+      list-style: none;
+      width: 50px;
+      height: auto;
+    }
+    .countdown .clock-item .count-number {
+      background: none;
+      color: white;
+      font-size: 20px;
+      font-weight: 900;
+      font-family: 'Quicksand', sans-serif;
+      padding: 1rem;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      line-height: 1;
+      border-radius: 4px 4px 0 0;
+    }
+    .countdown .clock-item .count-text {
+      background: none;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: #19F5CE;
+      padding: 0.5rem 0.7rem;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      line-height: 1;
+      border-radius: 0 0 4px 4px;
+    }
+  
+    .announce{
+      margin-top: 20px;
+      color: #19F5CE;
+      font-family: 'Roboto', sans-serif; 
+      font-weight: 900;
+      font-style: italic;
+      font-size: 42px;
+      letter-spacing: 3px;
+    }
+  
+    .call{
+        margin-top: 15px;
+    }
+  
+    .cta{
+        width: 220px;
+        height: 40px;
+        background-color: white;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+  
+    .cta:hover{
+        background-color: #19F5CE;
+        transition: all 1s ease;
+    }
+  
+    .cta a{
+        color: black;
+        font-size: 18px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+    }
+  
+    .cta a:hover{
+        color: rgb(26, 26, 26);
+    }
+  
+    .gallery{
+        margin-top: 80px;
+    }
+  
+    .frame .item{
+        width: 90%;
+    }
+  
+    .about{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+  
+    .title p{
+        font-size: 26px;
+        color: #19F5CE;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+  
+    .title div{
+        margin-top: 5px;
+        width: 90px;
+        height: 3px;
+        border-top: 4px solid #19F5CE;
+    }
+  
+    .about-item{
+        margin-top: 30px;
+    }
+    
+    .about-item img{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .about-item span{
+      display: inline-block;
+    }
+  
+    .separator{
+        width: 1px;
+        height: 97px;
+        border-left: 3px solid #19F5CE;
+        margin-left: 5px;
+        position: absolute;
+        margin-top: 55px;
+    }
+  
+    .about-item span p{
+        color: white;
+        width: 300px;
+        text-align: justify;
+        font-size: 16px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: 45px;
+        margin-left: 20px;
+    }
+  
+    .social{
+        margin-top: 100px;
+    }
+  
+    .social p{
+      font-size: 26px;
+      color: #19F5CE;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+    }
+  
+    .social-items{
+        margin-top: 30px;
+    }
+  
+    .social-items span{
+        display: inline-block;
+        padding: 20px 50px 10px 50px;
+    }
+  
+    .social-items span i{
+        font-size: 46px;
+        color: #19F5CE;
+    }
+  
+    .social-items span i:hover{
+        color: yellow;
+        transition: all 0.6s ease;
+    }
+  
+    .social-items span p a{
+        margin-top: 15px;
+        font-size: 21px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+    }
+  
+    .social-items span p a:hover{
+        color: #19F5CE;
+        transition: all 1s ease;
+    }
+  
+  .desc{
+      margin-top: 50px;
+      margin-left: 20px;
+  }
+  
+  .desc-title p{
+      font-size: 26px;
+      color: #19F5CE;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+  }
+  
+  .desc-title div{
+      margin-top: 5px;
+      width: 100px;
+      height: 3px;
+      border-top: 4px solid #19F5CE;
+  }
+  
+  .desc-entry{
+      margin-top: 30px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 500;
+      width: 330px;
+  }
+  
+  .head{
+      width: 330px;
+      margin-top: 30px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      text-align: justify;
+  }
+  
+  .head b{
+      color: #19F5CE;
+      font-size: 22px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+  }
+  
+  .eye{
+      width: 330px;
+      margin-top: 30px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+  }
+  
+  .eye b{
+      color: #19F5CE;
+      font-size: 22px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+  }
+  
+  .mouth{
+      width: 330px;
+      margin-top: 30px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+  }
+  
+  .mouth b{
+      color: #19F5CE;
+      font-size: 22px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+  }
+  
+  .face{
+      width: 330px;
+      margin-top: 30px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+  }
+  
+  .face b{
+      color: #19F5CE;
+      font-size: 22px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+  }
+  
+  .clothes{
+      width: 330px;
+      margin-top: 30px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+  }
+  
+  .clothes b{
+      color: #19F5CE;
+      font-size: 22px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+  }
+  
+  .jewelry{
+      width: 330px;
+      margin-top: 30px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+  }
+  
+  .jewelry b{
+      color: #19F5CE;
+      font-size: 22px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+  }
+  
+  .update{
+      width: 100%;
+      left: 0px;
+      margin-top: 20px;
+  }
+  
+  .timing{
+      margin-top: 500px;
+      background-image: url("./images/bg2.png");
+      background-position: top;
+      padding: 50px 40px 50px 40px;
+  }
+  
+  .countdown {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-top: 15px;
+    }
+    
+    .countdowns ul {
+      display: flex;
+      gap: 2rem
+    }
+    .countdowns .clock-items {
+      list-style: none;
+      width: 50px;
+      height: auto;
+    }
+    .countdowns .clock-items .count-numbers {
+      background: none;
+      color: white;
+      font-size: 20px;
+      font-weight: 900;
+      font-family: 'Quicksand', sans-serif;
+      padding: 1rem;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      line-height: 1;
+      border-radius: 4px 4px 0 0;
+    }
+    .countdowns .clock-items .count-texts {
+      background: none;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: #19F5CE;
+      padding: 0.5rem 0.7rem;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      line-height: 1;
+      border-radius: 0 0 4px 4px;
+    }
+  
+    .footer-logo{
+        margin-top: 45px;
+        height: 400px;
+    }
+  
+    .logo2{
+        width: 150px;
+        height: 130px;
+        /*margin-bottom: -20px;*/
+  }
+  
+  .footer-logo a{
+      color: white;
+      font-size: 21px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      padding-bottom: 20px;
+  }
+  
+
+}
