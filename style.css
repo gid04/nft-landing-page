@@ -616,6 +616,7 @@ nav a,ul{
   
     .gallery{
         margin-top: 80px;
+        margin-left: 20px;
     }
   
     .frame .item{
@@ -632,6 +633,7 @@ nav a,ul{
         color: #19F5CE;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
+        margin-left: 20px;
     }
   
     .title div{
