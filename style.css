@@ -665,7 +665,7 @@ nav a,ul{
   
     .about-item span p{
         color: white;
-        width: 300px;
+        width: 350px;
         text-align: justify;
         font-size: 16px;
         font-family: 'Quicksand', sans-serif;
@@ -748,7 +748,7 @@ nav a,ul{
   }
   
   .head{
-      width: 330px;
+      width: 350px;
       margin-top: 30px;
       color: white;
       font-size: 18px;
@@ -765,7 +765,7 @@ nav a,ul{
   }
   
   .eye{
-      width: 330px;
+      width: 350px;
       margin-top: 30px;
       color: white;
       font-size: 18px;
@@ -781,7 +781,7 @@ nav a,ul{
   }
   
   .mouth{
-      width: 330px;
+      width: 350px;
       margin-top: 30px;
       color: white;
       font-size: 18px;
@@ -797,7 +797,7 @@ nav a,ul{
   }
   
   .face{
-      width: 330px;
+      width: 350px;
       margin-top: 30px;
       color: white;
       font-size: 18px;
@@ -813,7 +813,7 @@ nav a,ul{
   }
   
   .clothes{
-      width: 330px;
+      width: 350px;
       margin-top: 30px;
       color: white;
       font-size: 18px;
@@ -829,7 +829,7 @@ nav a,ul{
   }
   
   .jewelry{
-      width: 330px;
+      width: 350px;
       margin-top: 30px;
       color: white;
       font-size: 18px;
@@ -851,7 +851,7 @@ nav a,ul{
   }
   
   .timing{
-      margin-top: 500px;
+      margin-top: 560px;
       background-image: url("./images/bg2.png");
       background-position: top;
       padding: 50px 40px 50px 40px;
@@ -904,7 +904,7 @@ nav a,ul{
   
     .footer-logo{
         margin-top: 45px;
-        height: 400px;
+        height: 300px;
     }
   
     .logo2{
